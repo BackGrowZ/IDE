@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: large;
+  font-weight: bold;
+}
+
+#h1-contact {
+  text-align: center;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: gray;
+}
+
+header {
+  background-color: plum;
+  padding: 15px;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.form-group label {
+  padding-bottom: 3px;
+}
+
+#civil {
+  width: 40%;
+}
+
+.formulaire-contact {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
